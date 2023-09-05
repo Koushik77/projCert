@@ -8,4 +8,4 @@ COPY website /var/www/html/
 EXPOSE 80
 
 # Start the web server
-CMD ["apachectl", "-D", "FOREGROUND"]
+CMD ["apache2ctl", "-D", "FOREGROUND"]
